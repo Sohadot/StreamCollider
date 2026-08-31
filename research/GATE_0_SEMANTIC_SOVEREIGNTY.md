@@ -39,3 +39,16 @@ These features show increasing coordination and manageability. They do not, by t
 ## Mandatory next trigger
 
 > **Complete Reference Case 001, then stop and re-evaluate Gate 0.**
+
+## Gate 0B status (2026-08-31)
+
+Reference Case 001 is materialized as **SC-BIR-001** (Boundary Intelligence Record v1.0-draft):
+
+- Unknown Closure Matrix with `D/S/I/U/A` classifications for U-01…U-07
+- Contradiction Register SC-CON-001…007
+- Evidence Matrix v0.2
+- Public surface upgrade at `/reference-case-001/`
+- Machine-readable stub `site/data/boundaries/sc-bir-001.json` (public; mirrored at `data/boundaries/sc-bir-001.json`)
+
+
+**Next:** Gate 0C — falsification / re-evaluation. Expansion lock remains until PASS.

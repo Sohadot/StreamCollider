@@ -1,0 +1,105 @@
+{
+  "record_id": "SC-BIR-001",
+  "title": "HPC Workload Manager ↔ Remote Quantum Resource Boundary",
+  "version": "1.0-draft",
+  "status": "evidence-bounded",
+  "case_id": "SC-RC-001",
+  "last_verified": "2026-08-31",
+  "domain_a": "HPC workload management",
+  "domain_b": "remote quantum resource",
+  "boundary_mechanism": "QRMI-class interface + WLM plugins/hooks + optional second-level middleware scheduler",
+  "admission": {
+    "distinct_governance": true,
+    "boundary_crossing": true,
+    "mutual_consequence": true,
+    "negative_control": true
+  },
+  "unknowns": [
+    {
+      "id": "U-01",
+      "question": "What does acquire establish across implementations?",
+      "primary_class": "S",
+      "residual": ["U"]
+    },
+    {
+      "id": "U-02",
+      "question": "If WLM-visible availability and provider state disagree, which controls dispatch?",
+      "primary_class": "U",
+      "residual": []
+    },
+    {
+      "id": "U-03",
+      "question": "Who has final authority when calibration or maintenance conflicts with an allocation?",
+      "primary_class": "U",
+      "residual": []
+    },
+    {
+      "id": "U-04",
+      "question": "What proves that a remote task stopped after scheduler cancellation or timeout?",
+      "primary_class": "U",
+      "residual": []
+    },
+    {
+      "id": "U-05",
+      "question": "What is the recovery authority after partial failure?",
+      "primary_class": "U",
+      "residual": []
+    },
+    {
+      "id": "U-06",
+      "question": "Can one record reconcile allocated time, provider waiting, actual execution, retry/cancellation and cost?",
+      "primary_class": "U",
+      "residual": []
+    },
+    {
+      "id": "U-07",
+      "question": "How are HPC identity and provider credential authority joined and audited?",
+      "primary_class": "S",
+      "residual": ["U"]
+    }
+  ],
+  "known": [
+    "Remote QPU integration can introduce a second queue outside classical scheduler direct control",
+    "acquire is not synonymous with execution readiness in the general case",
+    "Calibration can invalidate WLM availability assumptions after allocation",
+    "Credential and accounting mechanisms exist in multiple distinct models; the current evidence pack does not establish a single interoperable authority or audit model"
+  ],
+  "assumed": [
+    "No unpublished site-private production contract is treated as public evidence",
+    "Local WLM job end is not assumed to equal remote termination without provider-side evidence"
+  ],
+  "evidence_boundary": "Public QRMI/OpenQSE/HPC-QC materials end before full cross-domain precedence, termination proof, recovery matrix, and reconciled accounting contracts",
+  "contradictions": [
+    "SC-CON-001",
+    "SC-CON-002",
+    "SC-CON-003",
+    "SC-CON-004",
+    "SC-CON-005",
+    "SC-CON-006",
+    "SC-CON-007"
+  ],
+  "sources": [
+    "SC-S001",
+    "SC-S002",
+    "SC-S003",
+    "SC-S006",
+    "SC-S010",
+    "SC-S011",
+    "SC-S012",
+    "SC-S014"
+  ],
+  "gate": {
+    "current": "0B-complete",
+    "next": "0C-falsification-reevaluation",
+    "second_proving_domain_authorized": false
+  },
+  "public_url": "https://streamcollider.com/reference-case-001/",
+  "machine_readable_url": "https://streamcollider.com/data/boundaries/sc-bir-001.json",
+  "claim_classes": {
+    "D": "Directly documented",
+    "S": "Cross-source synthesis",
+    "I": "StreamCollider interpretation",
+    "U": "Unknown",
+    "A": "Assumption"
+  }
+}

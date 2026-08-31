@@ -1,13 +1,31 @@
-# StreamCollider Gate 0 v0.2
+# StreamCollider Gate 0B delivery — SC-BIR-001
 
-Files:
-- README.md
-- DECISION_LOG.md
-- SOURCE_REGISTER.md
-- research/GATE_0_SEMANTIC_SOVEREIGNTY.md
-- research/CONTEXT_ARCHITECTURE_V0_1.md
-- research/ADVANCED_CHIPS_CONTEXT_REGISTER.md
-- research/BOUNDARY_EVIDENCE_MATRIX_V0_1.md
-- research/REFERENCE_CASE_001_QRMI_WLM_BOUNDARY.md
+## Governance
+- `DECISION_LOG.md` (DEC-010, DEC-011)
+- `INDEXATION_LOG.md` (split from decision provenance)
+- `SOURCE_REGISTER.md` v0.3
 
-Advanced chips/chiplets/photonics are now part of the strategic context, while Reference Case 001 remains the only proving case until mandatory Gate 0 re-evaluation.
+## Research → governed record
+- `research/SC_BIR_001_BOUNDARY_INTELLIGENCE_RECORD.md`
+- `research/SC_BIR_001_UNKNOWN_CLOSURE_MATRIX.md`
+- `research/SC_CONTRADICTION_REGISTER.md`
+- `research/BOUNDARY_EVIDENCE_MATRIX_V0_2.md`
+- `research/REFERENCE_CASE_001_QRMI_WLM_BOUNDARY.md` (updated)
+- `research/GATE_0_SEMANTIC_SOVEREIGNTY.md` (Gate 0B note)
+
+## Machine-readable
+- Public: `site/data/boundaries/sc-bir-001.json` → https://streamcollider.com/data/boundaries/sc-bir-001.json
+- Repo mirror: `data/boundaries/sc-bir-001.json` (must stay identical)
+
+## Validation
+- `scripts/validate_site.py`
+- `.github/workflows/validate.yml` (pull_request quality gate; no deploy)
+
+## Public surface
+- `site/reference-case-001/` — SC-BIR-001 reference dossier
+- supporting nav/source/method touch-ups as needed
+
+## Still locked
+- No second proving domain
+- No Gate 0 category claim upgrade until Gate 0C
+- No ontology / SEO expansion sprint
