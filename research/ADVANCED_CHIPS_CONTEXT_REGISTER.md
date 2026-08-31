@@ -1,6 +1,6 @@
 # Advanced Chips Context Register v0.1
 
-**Status:** Context-only. No advanced-chip case is admitted as a Stream Collision yet.
+**Status:** Context-only. Gate 1 candidate screen complete — see [`GATE_1_ADVANCED_CHIP_CANDIDATE_SCREEN.md`](./GATE_1_ADVANCED_CHIP_CANDIDATE_SCREEN.md). Candidate A authorized to advance to SC-BIR-002 dossier work. No advanced-chip case is admitted as a Stream Collision yet.
 
 ## Context proposition
 

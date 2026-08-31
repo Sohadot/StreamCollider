@@ -70,3 +70,12 @@
 - **Final:** `GATE 0C PASS`.
 - **Consequence:** **Gate 1 authorized** (Advanced-Chip Generalization Test) on a separate branch after this checkpoint merges. Residual Unknowns on SC-BIR-001 remain open. Category-wide claims remain unauthorized until Gate 1 survives falsification.
 - **Record:** `research/GATE_0C_FALSIFICATION_REEVALUATION.md`
+
+## DEC-013 — Gate 1 candidate screen
+- **Date:** 2026-08-31
+- **Status:** Binding for current phase
+- **Decision:** Gate 1 opens with `research/GATE_1_ADVANCED_CHIP_CANDIDATE_SCREEN.md` only. Five candidates screened; **one** may advance to dossier work.
+- **Advance authorized:** Candidate A — Director-managed chiplet boundary (UCIe 3.0 manageability).
+- **Hold:** Host↔managed accelerator; electronic↔photonic; package throttle standalone.
+- **Investigate later:** Compute↔managed memory/fabric (locator pack required).
+- **Forbidden in screen PR:** SC-BIR-002 dossier, new public routes, ontology, SEO expansion, category claim.
