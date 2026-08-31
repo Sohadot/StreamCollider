@@ -265,11 +265,21 @@ The project follows a strict separation between:
 
 ## Next production objective
 
-**Gate 1 — Advanced-Chip Generalization Test** on a **separate branch** after Gate 0C merges:
+**Gate 1 — Advanced-Chip Generalization (screen phase)**
 
-Take one real multi-die / chiplet / accelerator / firmware-management boundary and attempt to falsify the framework again.
+- Gate 0C: PASS
+- Candidate screen: `research/GATE_1_ADVANCED_CHIP_CANDIDATE_SCREEN.md`
+- Advance authorized: **Candidate A** (Director-managed chiplet / UCIe 3.0 manageability)
+- SC-BIR-002 dossier: not started
+- Category-wide claims: not authorized
 
-Do not open ontology, SEO expansion, or monetization in that PR.
+---
+
+## Next production objective
+
+**SC-BIR-002 dossier** on a **separate branch** — Director-managed chiplet boundary only.
+
+Evidence pack extension (SC-C locators), Unknown Closure, Contradiction Register, Gate 1 falsification. No new public routes until dossier is evidence-bounded.
 
 ---
 
