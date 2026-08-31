@@ -1,0 +1,66 @@
+{
+  "record_id": "SC-BIR-002",
+  "title": "Director-Managed Chiplet Boundary (UCIe 3.0 Manageability)",
+  "version": "1.0-draft",
+  "status": "evidence-bounded-not-public",
+  "case_id": "SC-RC-002",
+  "last_verified": "2026-08-31",
+  "public_surface": false,
+  "domain_a": "director / management hub (director chiplet)",
+  "domain_b": "satellite / managed chiplet",
+  "boundary_mechanism": "UCIe 3.0 manageability: early firmware download, MTP/MCTP-class flows, priority sideband, open-drain throttle/shutdown",
+  "admission": {
+    "distinct_governance": "conditional",
+    "boundary_crossing": true,
+    "mutual_consequence": true,
+    "negative_control": true
+  },
+  "unknowns": [
+    {"id": "U-01", "question": "Deployment-level distinct governance (not protocol roles alone)?", "primary_class": "U", "residual": []},
+    {"id": "U-02", "question": "Firmware / MTP ownership", "primary_class": "U", "residual": []},
+    {"id": "U-03", "question": "Authoritative configuration state after partial download", "primary_class": "U", "residual": []},
+    {"id": "U-04", "question": "Version mismatch authority and rejection proof", "primary_class": "U", "residual": []},
+    {"id": "U-05", "question": "Partial firmware-update recovery authority", "primary_class": "U", "residual": []},
+    {"id": "U-06", "question": "Emergency throttle/shutdown vs chiplet-local state", "primary_class": "U", "residual": []},
+    {"id": "U-07", "question": "Director state vs chiplet-local state under disagreement", "primary_class": "U", "residual": []},
+    {"id": "U-08", "question": "Proof after failed or interrupted management action", "primary_class": "U", "residual": []}
+  ],
+  "known": [
+    "Director-mediated first mutable firmware download is specified; satellite chiplet waits",
+    "SiP-wide fast throttle and emergency shutdown via open-drain broadcast are specified",
+    "Verification literature requires MTP boot, version mismatch, partial transfer, recovery, and security test surfaces",
+    "Compliance does not guarantee multi-vendor interoperability"
+  ],
+  "assumed": [
+    "No unpublished SiP integrator runbook is treated as public evidence",
+    "Director role assignment does not alone prove independent governance"
+  ],
+  "evidence_boundary": "Public UCIe briefs and verification analysis end before normative deployment authority, recovery ownership, and dual-sided proof contracts",
+  "contradictions": [
+    "SC-CON-008",
+    "SC-CON-009",
+    "SC-CON-010",
+    "SC-CON-011",
+    "SC-CON-012"
+  ],
+  "sources": [
+    "SC-C001",
+    "SC-C002",
+    "SC-C003",
+    "SC-C005"
+  ],
+  "gate": {
+    "current": "1-evidence-ledger-complete",
+    "next": "1-falsification",
+    "public_surface_authorized": false,
+    "category_claim_authorized": false
+  },
+  "related_record": "SC-BIR-001",
+  "claim_classes": {
+    "D": "Directly documented",
+    "S": "Cross-source synthesis",
+    "I": "StreamCollider interpretation",
+    "U": "Unknown",
+    "A": "Assumption"
+  }
+}
