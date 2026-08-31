@@ -49,3 +49,38 @@
 - **Date:** 2026-08-31
 - **Status:** Reserved, not authorized
 - **Decision:** If Reference Case 001 passes re-evaluation, prefer an advanced multi-die/chiplet case with demonstrably distributed control or management authority as the second proving domain.
+
+ # StreamCollider Indexation Log
+
+## 2026-08-31 — First Public Indexation
+
+- Production domain: https://streamcollider.com/
+- Deployment source: GitHub Pages / GitHub Actions
+- Production branch: main
+- Deployment workflow: Deploy StreamCollider Pages
+- Sitemap: https://streamcollider.com/sitemap.xml
+- HTTPS: Enforced
+- Custom domain DNS: Verified
+- Google Search Console: Submitted / Indexed
+- First public foundation routes:
+  - /
+  - /thesis/
+  - /boundaries/
+  - /reference-case-001/
+  - /advanced-compute/
+  - /sources/
+  - /method/
+
+### Provenance
+
+Gate 0
+→ Interface Foundation v0.1
+→ Production Deployment
+→ Google Search Console
+→ First Indexation
+
+### Status
+
+Public foundation established.
+
+No ontology expansion, second proving domain, or broad SEO expansion is authorized before completion and re-evaluation of Reference Case 001.
