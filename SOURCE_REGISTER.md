@@ -1,4 +1,4 @@
-# StreamCollider Source Register v0.2
+# StreamCollider Source Register v0.3
 
 ## Gate 0 evidence pack
 
@@ -12,6 +12,10 @@
 - SC-S008 — Siemens/PBS hybrid-workload presentation, OpenQSE Day 2026
 - SC-S009 — QDMI presentation, OpenQSE Day 2026
 - SC-S010 — openQSE Quantum Resource Interface Workstream readout, 2026-07-24
+- SC-S011 — Sitdikov et al., *Quantum resources in resource management systems*, arXiv:2506.10052
+- SC-S012 — Ohtani et al., *Examining QRMI as a Unified Interface for Quantum-HPC Integration*, arXiv:2607.19591
+- SC-S013 — *Quantum–HPC Software Stacks and the openQSE Reference Architecture: A Survey*, arXiv:2604.20912
+- SC-S014 — Aleksander Wennersteen, OpenQSE architecture talk notes — Pasqal second-level scheduler / QRMI positioning, 2026-01-19
 
 ## Advanced-compute context
 

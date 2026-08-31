@@ -112,8 +112,12 @@ The purpose is not to build another quantum-computing information site.
 
 The purpose is to test whether the StreamCollider method reveals useful cross-source intelligence that cannot be reduced to a vendor architecture diagram.
 
-**Reference Case 001:**  
-`research/REFERENCE_CASE_001_QRMI_WLM_BOUNDARY.md`
+**Reference Case 001 / SC-BIR-001:**  
+`research/SC_BIR_001_BOUNDARY_INTELLIGENCE_RECORD.md`  
+`research/REFERENCE_CASE_001_QRMI_WLM_BOUNDARY.md`  
+Public: https://streamcollider.com/reference-case-001/
+
+**Status:** Evidence ledger complete — awaiting Gate 0C falsification / re-evaluation. No second proving domain authorized.
 
 ---
 
@@ -182,7 +186,7 @@ The current rule is:
 
 > **One documented workflow → complete mapping → mandatory re-evaluation.**
 
-No second proving domain is authorized until Reference Case 001 is completed and the thesis is tested against its own evidence.
+No second proving domain is authorized until Reference Case 001 / SC-BIR-001 completes Gate 0C re-evaluation and the thesis is tested against its own evidence.
 
 ---
 
@@ -226,6 +230,10 @@ Evidence sources and claim posture are maintained in:
 
 **[`SOURCE_REGISTER.md`](SOURCE_REGISTER.md)**
 
+Operational indexation evidence is maintained in:
+
+**[`INDEXATION_LOG.md`](INDEXATION_LOG.md)**
+
 The project follows a strict separation between:
 
 - documented source claims;
@@ -238,35 +246,37 @@ The project follows a strict separation between:
 
 ## Current status
 
-**Foundation phase**
+**Gate 0B — Boundary Intelligence Proof**
 
 - Semantic sovereignty: established for internal use
 - Three-condition admission rule: established
 - First proving domain: active
-- Reference Case 001: in progress
+- Reference Case 001 / SC-BIR-001: evidence ledger complete (awaiting Gate 0C)
+- Unknown Closure Matrix: U-01…U-07 classified
+- Contradiction Register: SC-CON-001…007
+- Machine-readable stub: `data/boundaries/sc-bir-001.json`
 - Public foundation: live
 - GitHub Pages deployment: active
 - HTTPS / custom domain: active
 - Sitemap discovery: confirmed
 - Advanced-chip context: established
-- Second proving domain: locked pending re-evaluation
+- Second proving domain: locked pending Gate 0C
 - Category-wide claims: not authorized
 
 ---
 
 ## Next production objective
 
-Complete the first Boundary Intelligence record around:
+**Gate 0C — Falsification / Re-evaluation** against SC-BIR-001:
 
-1. queue authority and acquisition semantics;
-2. authoritative resource state;
-3. calibration and maintenance authority;
-4. cancellation and partial failure;
-5. accounting and cross-domain proof.
+1. Did StreamCollider surface knowledge not available from reading each source in isolation?
+2. Did governance-boundary method produce operationally useful Unknowns?
+3. Did Known / Unknown / Assumed / Evidence Boundary improve understanding, or only reorganize documentation?
 
 Then stop.
 
-The next action is **mandatory Gate 0 re-evaluation**, not automatic expansion.
+If PASS: Gate 1 — Advanced-Chip Generalization Test (not a second quantum domain).  
+If FAIL: narrow scope; do not expand.
 
 ---
 

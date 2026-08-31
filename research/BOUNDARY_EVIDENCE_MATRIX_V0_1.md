@@ -1,5 +1,9 @@
 # Boundary Evidence Matrix v0.1
 
+**Superseded by:** [`BOUNDARY_EVIDENCE_MATRIX_V0_2.md`](./BOUNDARY_EVIDENCE_MATRIX_V0_2.md) (Gate 0B / SC-BIR-001).
+
+Retained for lineage. Do not extend this file; update v0.2 and the SC-BIR-001 ledger instead.
+
 | ID | Question | Current evidence reading |
 |---|---|---|
 | B-001 | Queue authority after HPC admission | Strong — remote QPU can introduce a second queue outside the classical scheduler's direct visibility/control. |

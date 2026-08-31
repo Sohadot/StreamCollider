@@ -1,1 +1,124 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Reference Case 001 — StreamCollider</title><meta name="description" content="First falsification case: HPC workload-management domain interacting with a remote quantum-resource/provider domain."><link rel="canonical" href="https://streamcollider.com/reference-case-001/"><meta property="og:title" content="Reference Case 001 — StreamCollider"><meta property="og:description" content="First falsification case: HPC workload-management domain interacting with a remote quantum-resource/provider domain."><meta property="og:type" content="website"><meta property="og:url" content="https://streamcollider.com/reference-case-001/"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="/assets/styles.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "name": "Reference Case 001 \u2014 StreamCollider", "url": "https://streamcollider.com/reference-case-001/", "description": "First falsification case: HPC workload-management domain interacting with a remote quantum-resource/provider domain.", "isPartOf": {"@type": "WebSite", "name": "StreamCollider", "url": "https://streamcollider.com/"}}</script></head><body><a class="skip" href="#main">Skip to content</a><header><nav class="nav shell" aria-label="Primary"><a class="brand" href="/">StreamCollider</a><div class="navlinks"><a href="/thesis/">Thesis</a><a href="/boundaries/">Boundaries</a><a href="/reference-case-001/">Reference Case</a><a href="/advanced-compute/">Advanced Compute</a><a href="/sources/">Sources</a><a href="/method/">Method</a></div></nav></header><main id="main"><section class="page-head shell"><div class="kicker">SC-RC-001 · In Progress</div><h1>WLM ↔ Remote Quantum Resource</h1></section><article class="prose shell"><p class="lede">The first reference case tests whether cross-domain analysis adds knowledge beyond a vendor architecture diagram.</p><h2>Admission result</h2><table><tr><th>Condition</th><th>Status</th></tr><tr><td>Distinct governance</td><td>PASS</td></tr><tr><td>Boundary crossing</td><td>PASS</td></tr><tr><td>Mutual consequence</td><td>PASS</td></tr><tr><td>Negative control</td><td>PASS</td></tr></table><h2>Open evidence questions</h2><ol><li>What does <code>acquire</code> establish across implementations?</li><li>If WLM-visible availability and provider state disagree, which controls dispatch?</li><li>Who has final authority when calibration or maintenance conflicts with an allocation?</li><li>What proves that a remote task stopped after scheduler cancellation or timeout?</li><li>What is the recovery authority after partial failure?</li><li>Can one record reconcile allocation, provider waiting, execution, retry/cancellation and cost?</li><li>How are HPC identity and provider credential authority joined and audited?</li></ol><h2>Originality test</h2><p>If these questions collapse into a restatement of existing interface documentation, the thesis must be revised before expansion.</p></article></main><footer><div class="shell footer-grid"><span>StreamCollider — governed research foundation</span><span>Gate 0 · 2026-08-31</span></div></footer><script src="/assets/app.js" defer></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SC-BIR-001 — Boundary Intelligence Record — StreamCollider</title>
+<meta name="description" content="StreamCollider Boundary Intelligence Record SC-BIR-001: HPC workload manager ↔ remote quantum resource. Authority map, Unknown closure, contradictions, evidence boundary.">
+<link rel="canonical" href="https://streamcollider.com/reference-case-001/">
+<meta property="og:title" content="SC-BIR-001 — Boundary Intelligence Record — StreamCollider">
+<meta property="og:description" content="First sovereign reference artifact: HPC ↔ remote quantum resource boundary intelligence.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://streamcollider.com/reference-case-001/">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","name":"SC-BIR-001 — HPC Workload Manager ↔ Remote Quantum Resource Boundary","url":"https://streamcollider.com/reference-case-001/","identifier":"SC-BIR-001","dateModified":"2026-08-31","description":"StreamCollider Boundary Intelligence Record for the HPC workload-management domain interacting with a remote quantum-resource domain.","isPartOf":{"@type":"WebSite","name":"StreamCollider","url":"https://streamcollider.com/"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+<nav class="nav shell" aria-label="Primary">
+<a class="brand" href="/">StreamCollider</a>
+<div class="navlinks">
+<a href="/thesis/">Thesis</a>
+<a href="/boundaries/">Boundaries</a>
+<a href="/reference-case-001/" aria-current="page">Reference Case</a>
+<a href="/advanced-compute/">Advanced Compute</a>
+<a href="/sources/">Sources</a>
+<a href="/method/">Method</a>
+</div>
+</nav>
+</header>
+<main id="main">
+<section class="page-head shell">
+<div class="kicker">SC-BIR-001 · Evidence-Bounded · v1.0-draft</div>
+<h1>HPC Workload Manager ↔ Remote Quantum Resource</h1>
+<p class="lede record-lede">StreamCollider Boundary Intelligence Record — the first citable cross-source audit of authority, state, proof and recovery at an independently governed compute boundary.</p>
+<div class="meta-line">
+<span class="badge authority">Record ID SC-BIR-001</span>
+<span class="badge">Case SC-RC-001</span>
+<span class="badge unknown">Gate 0C pending</span>
+<span class="badge">Last verified 2026-08-31</span>
+</div>
+</section>
+
+<article class="prose shell dossier">
+<p class="lede">This page is not a vendor summary. It is a governed record: what architecture diagrams assert, what evidence supports, where domains disagree, and what remains unknown.</p>
+
+<h2>Admission</h2>
+<table>
+<tr><th>Condition</th><th>Status</th></tr>
+<tr><td>Distinct governance</td><td>PASS</td></tr>
+<tr><td>Boundary crossing</td><td>PASS</td></tr>
+<tr><td>Mutual consequence</td><td>PASS</td></tr>
+<tr><td>Negative control</td><td>PASS</td></tr>
+</table>
+<p>Domain A: HPC workload management. Domain B: remote / independently governed quantum resource. Boundary mechanism: QRMI-class interface, WLM plugins or hooks, and optional second-level middleware scheduling.</p>
+
+<h2>Architecture says / Boundary intelligence asks</h2>
+<p>The distinction that makes this record more than documentation:</p>
+<table class="dual-map">
+<tr><th>Architecture says</th><th>Boundary intelligence asks</th></tr>
+<tr><td>Slurm allocates a quantum resource</td><td>What remains outside Slurm authority after allocation?</td></tr>
+<tr><td>QRMI <code>acquire</code></td><td>What exactly has been acquired?</td></tr>
+<tr><td>QPU has state</td><td>Who owns authoritative state under disagreement?</td></tr>
+<tr><td>Cancellation exists</td><td>Who proves remote termination?</td></tr>
+<tr><td>Accounting exists</td><td>Can both domains reconcile one evidence trail?</td></tr>
+</table>
+
+<h2>Unknown Closure — U-01 … U-07</h2>
+<p>Each Unknown carries claim classes: <span class="cls d">D</span> Direct · <span class="cls s">S</span> Synthesis · <span class="cls i">I</span> Interpretation · <span class="cls u">U</span> Unknown · <span class="cls a">A</span> Assumed.</p>
+<table>
+<tr><th>ID</th><th>Question</th><th>Primary</th><th>Residual</th></tr>
+<tr><td>U-01</td><td>What does <code>acquire</code> establish across implementations?</td><td><span class="cls s">S</span></td><td>cross-vendor rights floor <span class="cls u">U</span></td></tr>
+<tr><td>U-02</td><td>If WLM and provider state disagree, which governs dispatch?</td><td><span class="cls u">U</span></td><td>precedence contract</td></tr>
+<tr><td>U-03</td><td>Who has final authority when calibration conflicts with allocation?</td><td><span class="cls u">U</span></td><td>override + proof</td></tr>
+<tr><td>U-04</td><td>What proves remote stop after cancel or timeout?</td><td><span class="cls u">U</span></td><td>remote ACK</td></tr>
+<tr><td>U-05</td><td>What is recovery authority after partial failure?</td><td><span class="cls u">U</span></td><td>owner matrix</td></tr>
+<tr><td>U-06</td><td>Can one record reconcile allocation, wait, execution, cancel and cost?</td><td><span class="cls u">U</span></td><td>joinable trail</td></tr>
+<tr><td>U-07</td><td>How are HPC identity and provider credentials joined and audited?</td><td><span class="cls s">S</span></td><td>joint audit <span class="cls u">U</span></td></tr>
+</table>
+
+<h2>Known / Unknown / Assumed / Evidence Boundary</h2>
+<div class="matrix dossier-matrix">
+<div class="known"><b>KNOWN</b>Remote QPU integration can introduce a second queue outside classical scheduler control. <code>acquire</code> ≠ execution readiness in the general case.</div>
+<div class="unknown"><b>UNKNOWN</b>Authoritative-state precedence, calibration override proof, remote termination proof, recovery graph, reconciled accounting clock.</div>
+<div class="assumed"><b>ASSUMED</b>No hidden production contract is treated as evidence. Local WLM job end ≠ remote termination without provider-side proof.</div>
+<div class="evidence"><b>EVIDENCE BOUNDARY</b>Public QRMI / OpenQSE / HPC-QC materials end before full cross-domain precedence, termination proof, recovery and reconciled accounting contracts.</div>
+</div>
+
+<h2>Contradiction Register</h2>
+<p>Contradictions are recorded, not silently smoothed into a preferred narrative.</p>
+<table>
+<tr><th>ID</th><th>Tension</th><th>Status</th></tr>
+<tr><td>SC-CON-001</td><td>Single-scheduler HPC posture vs second queue / second-level scheduler</td><td>OPEN — SCOPED</td></tr>
+<tr><td>SC-CON-002</td><td>Acquire-before-allocation (PBS) vs acquire-during-setup (Slurm)</td><td>SCOPED</td></tr>
+<tr><td>SC-CON-003</td><td>Schedulable GRES representation vs live provider readiness</td><td>OPEN</td></tr>
+<tr><td>SC-CON-004</td><td><code>is_accessible</code> exists but does not reflect availability</td><td>OPEN</td></tr>
+<tr><td>SC-CON-005</td><td>Cancel / release surface vs remote termination proof</td><td>OPEN — EVIDENCE GAP</td></tr>
+<tr><td>SC-CON-006</td><td>Dual accounting without defined responsibility split</td><td>OPEN</td></tr>
+<tr><td>SC-CON-007</td><td>Admin-central credentials vs user-scoped / MUNGE identity</td><td>SCOPED</td></tr>
+</table>
+
+<h2>Negative control</h2>
+<p>A local owned/controlled resource under one scheduling authority can avoid the remote two-queue condition. That path may still be hard operationally; it is not the same governance boundary under test.</p>
+
+<h2>Originality / falsification posture</h2>
+<p>If this record collapses into a restatement of any single interface document, Gate 0 must be revised before expansion. Gate 0C will ask only whether StreamCollider produced cross-source boundary knowledge, useful Unknowns, and clearer authority understanding — not whether another page was published.</p>
+<div class="callout">
+<strong>Expansion lock.</strong> No second proving domain is authorized until Gate 0C re-evaluation against SC-BIR-001.
+</div>
+
+<h2>Source anchors</h2>
+<p>Primary evidence: SC-S001, SC-S002, SC-S003, SC-S006, SC-S010, SC-S011, SC-S012, SC-S014. Full register on <a href="/sources/">Sources</a>. Method classes on <a href="/method/">Method</a>.</p>
+</article>
+</main>
+<footer>
+<div class="shell footer-grid">
+<span>StreamCollider — SC-BIR-001 Boundary Intelligence Record</span>
+<span>Gate 0B · 2026-08-31</span>
+</div>
+</footer>
+<script src="/assets/app.js" defer></script>
+</body>
+</html>
