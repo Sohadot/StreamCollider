@@ -1,10 +1,18 @@
 {
   "record_id": "SC-BIR-001",
   "title": "HPC Workload Manager ↔ Remote Quantum Resource Boundary",
-  "version": "1.0-draft",
-  "status": "evidence-bounded",
+  "version": "1.0",
+  "status": "evidence-bounded-gate-0c-pass",
   "case_id": "SC-RC-001",
   "last_verified": "2026-08-31",
+  "falsification": {
+    "gate": "0C",
+    "result": "PASS",
+    "f1": "PASS WITH RESERVATION",
+    "f2": "PASS",
+    "f3": "PASS",
+    "record": "research/GATE_0C_FALSIFICATION_REEVALUATION.md"
+  },
   "domain_a": "HPC workload management",
   "domain_b": "remote quantum resource",
   "boundary_mechanism": "QRMI-class interface + WLM plugins/hooks + optional second-level middleware scheduler",
@@ -89,9 +97,11 @@
     "SC-S014"
   ],
   "gate": {
-    "current": "0B-complete",
-    "next": "0C-falsification-reevaluation",
-    "second_proving_domain_authorized": false
+    "current": "0C-pass",
+    "next": "1-advanced-chip-generalization",
+    "second_proving_domain_authorized": true,
+    "second_proving_domain": "advanced multi-die/chiplet with distributed control or management authority",
+    "category_claim_authorized": false
   },
   "public_url": "https://streamcollider.com/reference-case-001/",
   "machine_readable_url": "https://streamcollider.com/data/boundaries/sc-bir-001.json",

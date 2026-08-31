@@ -1,6 +1,6 @@
 # Gate 0 — Semantic Sovereignty & Evidence Boundary
 
-**Status:** PASS FOR INTERNAL FOUNDATION / HOLD FOR PUBLIC CATEGORY CLAIM
+**Status:** PASS FOR INTERNAL FOUNDATION / GATE 0C PASS — GATE 1 AUTHORIZED (category claim still held)
 
 > **A Stream Collision occurs when computational streams governed by distinct control domains become mutually consequential across a governance boundary.**
 
@@ -40,15 +40,12 @@ These features show increasing coordination and manageability. They do not, by t
 
 > **Complete Reference Case 001, then stop and re-evaluate Gate 0.**
 
-## Gate 0B status (2026-08-31)
+## Gate 0B / 0C status (2026-08-31)
 
-Reference Case 001 is materialized as **SC-BIR-001** (Boundary Intelligence Record v1.0-draft):
+Reference Case 001 materialized as **SC-BIR-001**, then survived Gate 0C:
 
-- Unknown Closure Matrix with `D/S/I/U/A` classifications for U-01…U-07
-- Contradiction Register SC-CON-001…007
-- Evidence Matrix v0.2
-- Public surface upgrade at `/reference-case-001/`
-- Machine-readable stub `site/data/boundaries/sc-bir-001.json` (public; mirrored at `data/boundaries/sc-bir-001.json`)
+- F1 PASS WITH RESERVATION · F2 PASS · F3 PASS
+- **GATE 0C PASS → Gate 1 authorized**
+- Record: `research/GATE_0C_FALSIFICATION_REEVALUATION.md`
 
-
-**Next:** Gate 0C — falsification / re-evaluation. Expansion lock remains until PASS.
+Expansion beyond Gate 1 remains locked. Category claim still held.

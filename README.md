@@ -117,7 +117,7 @@ The purpose is to test whether the StreamCollider method reveals useful cross-so
 `research/REFERENCE_CASE_001_QRMI_WLM_BOUNDARY.md`  
 Public: https://streamcollider.com/reference-case-001/
 
-**Status:** Evidence ledger complete — awaiting Gate 0C falsification / re-evaluation. No second proving domain authorized.
+**Status:** Gate 0C PASS — Gate 1 authorized (not started). SC-BIR-001 remains evidence-bounded on open Unknowns.
 
 ---
 
@@ -186,7 +186,7 @@ The current rule is:
 
 > **One documented workflow → complete mapping → mandatory re-evaluation.**
 
-No second proving domain is authorized until Reference Case 001 / SC-BIR-001 completes Gate 0C re-evaluation and the thesis is tested against its own evidence.
+No second proving domain other than the authorized Gate 1 Advanced-Chip Generalization Test may start until that test is opened on its own branch after Gate 0C merge.
 
 ---
 
@@ -246,38 +246,30 @@ The project follows a strict separation between:
 
 ## Current status
 
-**Gate 0B — Boundary Intelligence Proof**
+**Gate 0C PASS — Gate 1 authorized**
 
 - Semantic sovereignty: established for internal use
 - Three-condition admission rule: established
-- First proving domain: active
-- Reference Case 001 / SC-BIR-001: evidence ledger complete (awaiting Gate 0C)
-- Unknown Closure Matrix: U-01…U-07 classified
-- Contradiction Register: SC-CON-001…007
+- First proving domain: SC-BIR-001 complete (evidence-bounded)
+- Gate 0C falsification: PASS (F1 PASS WITH RESERVATION; F2 PASS; F3 PASS)
 - Machine-readable stub: `site/data/boundaries/sc-bir-001.json` (public) / `data/boundaries/sc-bir-001.json` (mirror)
-
 - Public foundation: live
 - GitHub Pages deployment: active
 - HTTPS / custom domain: active
 - Sitemap discovery: confirmed
 - Advanced-chip context: established
-- Second proving domain: locked pending Gate 0C
+- Second proving domain: **Gate 1 authorized**, not started
 - Category-wide claims: not authorized
 
 ---
 
 ## Next production objective
 
-**Gate 0C — Falsification / Re-evaluation** against SC-BIR-001:
+**Gate 1 — Advanced-Chip Generalization Test** on a **separate branch** after Gate 0C merges:
 
-1. Did StreamCollider surface knowledge not available from reading each source in isolation?
-2. Did governance-boundary method produce operationally useful Unknowns?
-3. Did Known / Unknown / Assumed / Evidence Boundary improve understanding, or only reorganize documentation?
+Take one real multi-die / chiplet / accelerator / firmware-management boundary and attempt to falsify the framework again.
 
-Then stop.
-
-If PASS: Gate 1 — Advanced-Chip Generalization Test (not a second quantum domain).  
-If FAIL: narrow scope; do not expand.
+Do not open ontology, SEO expansion, or monetization in that PR.
 
 ---
 

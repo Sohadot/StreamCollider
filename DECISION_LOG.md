@@ -47,17 +47,26 @@
 
 ## DEC-009 — Candidate second proving domain
 - **Date:** 2026-08-31
-- **Status:** Reserved, not authorized
-- **Decision:** If Reference Case 001 passes re-evaluation, prefer an advanced multi-die/chiplet case with demonstrably distributed control or management authority as the second proving domain.
+- **Status:** Authorized by Gate 0C PASS; not yet started
+- **Decision:** Prefer an advanced multi-die/chiplet case with demonstrably distributed control or management authority as the second proving domain (Gate 1). Must run on a separate branch after Gate 0C merge.
 
 ## DEC-010 — Gate 0B Boundary Intelligence Record
 - **Date:** 2026-08-31
-- **Status:** Binding for current phase
+- **Status:** Complete
 - **Decision:** Before Gate 0 re-evaluation or any second proving domain, Reference Case 001 must be materialized as sovereign record `SC-BIR-001` (Boundary Intelligence Record), including Unknown closure classifications (`D/S/I/U/A`), Contradiction Register entries, Architecture≠Authority dual map, evidence matrix update, public reference surface, and machine-readable stub.
-- **Forbidden now:** ontology expansion, SEO page proliferation, second proving domain, monetization surfaces.
+- **Forbidden now:** ontology expansion, SEO page proliferation, monetization surfaces; Gate 1 is separate work.
 - **Next mandatory gate:** Gate 0C — falsification / re-evaluation of Gate 0 against SC-BIR-001.
 
 ## DEC-011 — Indexation log separation
 - **Date:** 2026-08-31
 - **Status:** Binding
 - **Decision:** Operational indexation evidence lives in `INDEXATION_LOG.md`. Decision provenance remains exclusively in this file.
+
+## DEC-012 — Gate 0C PASS
+- **Date:** 2026-08-31
+- **Status:** Binding
+- **Decision:** SC-BIR-001 survives Gate 0C falsification.
+- **Verdicts:** F1 = PASS WITH RESERVATION; F2 = PASS; F3 = PASS.
+- **Final:** `GATE 0C PASS`.
+- **Consequence:** **Gate 1 authorized** (Advanced-Chip Generalization Test) on a separate branch after this checkpoint merges. Residual Unknowns on SC-BIR-001 remain open. Category-wide claims remain unauthorized until Gate 1 survives falsification.
+- **Record:** `research/GATE_0C_FALSIFICATION_REEVALUATION.md`
