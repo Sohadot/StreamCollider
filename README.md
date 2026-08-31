@@ -265,21 +265,9 @@ The project follows a strict separation between:
 
 ## Next production objective
 
-**Gate 1 — Advanced-Chip Generalization (screen phase)**
+**Gate 1 screen (this branch):** `research/GATE_1_ADVANCED_CHIP_CANDIDATE_SCREEN.md` — Candidate A authorized to advance.
 
-- Gate 0C: PASS
-- Candidate screen: `research/GATE_1_ADVANCED_CHIP_CANDIDATE_SCREEN.md`
-- Advance authorized: **Candidate A** (Director-managed chiplet / UCIe 3.0 manageability)
-- SC-BIR-002 dossier: not started
-- Category-wide claims: not authorized
-
----
-
-## Next production objective
-
-**SC-BIR-002 dossier** on a **separate branch** — Director-managed chiplet boundary only.
-
-Evidence pack extension (SC-C locators), Unknown Closure, Contradiction Register, Gate 1 falsification. No new public routes until dossier is evidence-bounded.
+**After merge — SC-BIR-002 dossier** on a separate branch: Director-managed chiplet boundary only. Extend SC-C locators, Unknown Closure, Contradiction Register, Gate 1 falsification. No new public routes until evidence-bounded.
 
 ---
 
