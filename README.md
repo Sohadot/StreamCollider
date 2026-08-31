@@ -254,7 +254,8 @@ The project follows a strict separation between:
 - Reference Case 001 / SC-BIR-001: evidence ledger complete (awaiting Gate 0C)
 - Unknown Closure Matrix: U-01…U-07 classified
 - Contradiction Register: SC-CON-001…007
-- Machine-readable stub: `data/boundaries/sc-bir-001.json`
+- Machine-readable stub: `site/data/boundaries/sc-bir-001.json` (public) / `data/boundaries/sc-bir-001.json` (mirror)
+
 - Public foundation: live
 - GitHub Pages deployment: active
 - HTTPS / custom domain: active

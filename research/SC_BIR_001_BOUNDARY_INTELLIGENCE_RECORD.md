@@ -7,7 +7,7 @@
 **Case ID:** SC-RC-001  
 **Last verified:** 2026-08-31  
 **Public surface:** `/reference-case-001/`  
-**Machine-readable:** `data/boundaries/sc-bir-001.json`
+**Machine-readable:** [`/data/boundaries/sc-bir-001.json`](https://streamcollider.com/data/boundaries/sc-bir-001.json) (repo mirror: `data/boundaries/sc-bir-001.json`)
 
 > This record is a sovereign, citable StreamCollider artifact. It is not a restatement of any single vendor, scheduler, or interface document.
 
@@ -89,7 +89,7 @@ See `research/BOUNDARY_EVIDENCE_MATRIX_V0_2.md` and the full Unknown ledger in `
 - Remote QPU integration can introduce a second queue outside classical scheduler direct visibility/control.
 - `acquire` establishes access/session/token continuity; it is not portable proof of immediate execution readiness.
 - Calibration and provider-side dynamics can invalidate WLM availability assumptions after allocation.
-- Credential and accounting mechanisms exist in multiple incompatible models.
+- Credential and accounting mechanisms exist in multiple distinct models; the current evidence pack does not establish a single interoperable authority or audit model.
 
 ### Unknown
 - Authoritative-state precedence under disagreement (U-02).
@@ -181,4 +181,4 @@ Until Gate 0C completes: **no second proving domain**, **no category claim upgra
 | Contradictions | `research/SC_CONTRADICTION_REGISTER.md` |
 | Evidence matrix | `research/BOUNDARY_EVIDENCE_MATRIX_V0_2.md` |
 | Public reference | `site/reference-case-001/` |
-| Machine-readable | `data/boundaries/sc-bir-001.json` |
+| Machine-readable | `site/data/boundaries/sc-bir-001.json` → https://streamcollider.com/data/boundaries/sc-bir-001.json |

@@ -14,7 +14,12 @@
 - `research/GATE_0_SEMANTIC_SOVEREIGNTY.md` (Gate 0B note)
 
 ## Machine-readable
-- `data/boundaries/sc-bir-001.json`
+- Public: `site/data/boundaries/sc-bir-001.json` → https://streamcollider.com/data/boundaries/sc-bir-001.json
+- Repo mirror: `data/boundaries/sc-bir-001.json` (must stay identical)
+
+## Validation
+- `scripts/validate_site.py`
+- `.github/workflows/validate.yml` (pull_request quality gate; no deploy)
 
 ## Public surface
 - `site/reference-case-001/` — SC-BIR-001 reference dossier

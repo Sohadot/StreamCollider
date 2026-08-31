@@ -48,6 +48,7 @@ Reference Case 001 is materialized as **SC-BIR-001** (Boundary Intelligence Reco
 - Contradiction Register SC-CON-001…007
 - Evidence Matrix v0.2
 - Public surface upgrade at `/reference-case-001/`
-- Machine-readable stub `data/boundaries/sc-bir-001.json`
+- Machine-readable stub `site/data/boundaries/sc-bir-001.json` (public; mirrored at `data/boundaries/sc-bir-001.json`)
+
 
 **Next:** Gate 0C — falsification / re-evaluation. Expansion lock remains until PASS.

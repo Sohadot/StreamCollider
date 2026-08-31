@@ -100,7 +100,7 @@ Claim classes on consequences use the SOURCE_REGISTER vocabulary (D / S / I / U 
 | **Claim A** | Default / convenient QRMI deployments place credentials in administrator-managed config and environment channels. (SC-S012) |
 | **Claim B** | Stronger multi-tenant patterns keep credentials user-scoped (Fluence) or map cluster identity via MUNGE/UID without config credentials (pasqal-local). (SC-S012) |
 | **Scope difference** | Deployment convenience vs adversarial multi-tenant security posture; on-prem vs cloud bursting. |
-| **Evidence available** | Direct enumeration of incompatible preferred models. |
+| **Evidence available** | Direct enumeration of distinct preferred credential models. |
 | **Resolution status** | **SCOPED — model fork, not factual error.** |
 | **Boundary consequence** | Identity/credential continuity cannot be described as a single architecture; audit join differs by model. Feeds U-07. (**S**) |
 

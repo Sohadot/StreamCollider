@@ -46,4 +46,4 @@ Full ledger: [`SC_BIR_001_UNKNOWN_CLOSURE_MATRIX.md`](./SC_BIR_001_UNKNOWN_CLOSU
 | Contradiction Register | `research/SC_CONTRADICTION_REGISTER.md` |
 | Evidence Matrix v0.2 | `research/BOUNDARY_EVIDENCE_MATRIX_V0_2.md` |
 | Public page | `site/reference-case-001/` |
-| Machine-readable | `data/boundaries/sc-bir-001.json` |
+| Machine-readable | `site/data/boundaries/sc-bir-001.json` (public) / `data/boundaries/sc-bir-001.json` (repo mirror) |

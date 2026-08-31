@@ -1,0 +1,27 @@
+name: Validate StreamCollider artifacts
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - "cursor/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate JSON, required files, links, canonicals, sitemap
+        run: python3 scripts/validate_site.py
