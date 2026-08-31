@@ -2,10 +2,11 @@
 
 **Title:** HPC Workload Manager ↔ Remote Quantum Resource Boundary  
 **Record ID:** SC-BIR-001  
-**Version:** 1.0-draft (Gate 0B)  
-**Status:** EVIDENCE-BOUNDED  
+**Version:** 1.0 (Gate 0C PASS)  
+**Status:** EVIDENCE-BOUNDED · GATE 0C PASS · GATE 1 AUTHORIZED  
 **Case ID:** SC-RC-001  
 **Last verified:** 2026-08-31  
+**Falsification:** [`GATE_0C_FALSIFICATION_REEVALUATION.md`](./GATE_0C_FALSIFICATION_REEVALUATION.md)  
 **Public surface:** `/reference-case-001/`  
 **Machine-readable:** [`/data/boundaries/sc-bir-001.json`](https://streamcollider.com/data/boundaries/sc-bir-001.json) (repo mirror: `data/boundaries/sc-bir-001.json`)
 
@@ -154,21 +155,24 @@ Full list: `SOURCE_REGISTER.md`
 
 | Version | Date | Change |
 |---|---|---|
+| 1.0 | 2026-08-31 | Gate 0C PASS recorded; Gate 1 authorized |
 | 0.1 / 1.0-draft | 2026-08-31 | Gate 0B initial Boundary Intelligence Record from Reference Case 001 evidence pack |
 
 ---
 
-## 12. Falsification result (Gate 0C pending)
+## 12. Falsification result (Gate 0C)
 
-**Status:** NOT YET RUN.
+**Status:** COMPLETE — see [`GATE_0C_FALSIFICATION_REEVALUATION.md`](./GATE_0C_FALSIFICATION_REEVALUATION.md)
 
-Gate 0C must ask only:
+| Test | Verdict |
+|---|---|
+| F1 Novel analytical output | PASS WITH RESERVATION |
+| F2 Operational utility | PASS |
+| F3 Method value | PASS |
 
-1. Did StreamCollider surface knowledge not obtainable by reading QRMI / OpenQSE / Pasqal materials each in isolation?
-2. Did the governance-boundary method produce operationally useful Unknowns?
-3. Did Known / Unknown / Assumed / Evidence Boundary improve understanding, or merely reorganize documentation?
+### GATE 0C PASS
 
-Until Gate 0C completes: **no second proving domain**, **no category claim upgrade**, **no ontology expansion**.
+**Gate 1 authorized** (separate branch after merge). Residual Unknowns U-02…U-06 remain open; category-wide claims remain unauthorized until Gate 1 survives falsification.
 
 ---
 
@@ -180,5 +184,6 @@ Until Gate 0C completes: **no second proving domain**, **no category claim upgra
 | Unknown ledger | `research/SC_BIR_001_UNKNOWN_CLOSURE_MATRIX.md` |
 | Contradictions | `research/SC_CONTRADICTION_REGISTER.md` |
 | Evidence matrix | `research/BOUNDARY_EVIDENCE_MATRIX_V0_2.md` |
+| Gate 0C | `research/GATE_0C_FALSIFICATION_REEVALUATION.md` |
 | Public reference | `site/reference-case-001/` |
 | Machine-readable | `site/data/boundaries/sc-bir-001.json` → https://streamcollider.com/data/boundaries/sc-bir-001.json |

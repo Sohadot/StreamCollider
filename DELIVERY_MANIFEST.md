@@ -1,31 +1,18 @@
-# StreamCollider Gate 0B delivery — SC-BIR-001
+# StreamCollider Gate 0C delivery
 
-## Governance
-- `DECISION_LOG.md` (DEC-010, DEC-011)
-- `INDEXATION_LOG.md` (split from decision provenance)
-- `SOURCE_REGISTER.md` v0.3
+## Primary artifact
+- `research/GATE_0C_FALSIFICATION_REEVALUATION.md`
 
-## Research → governed record
-- `research/SC_BIR_001_BOUNDARY_INTELLIGENCE_RECORD.md`
-- `research/SC_BIR_001_UNKNOWN_CLOSURE_MATRIX.md`
-- `research/SC_CONTRADICTION_REGISTER.md`
-- `research/BOUNDARY_EVIDENCE_MATRIX_V0_2.md`
-- `research/REFERENCE_CASE_001_QRMI_WLM_BOUNDARY.md` (updated)
-- `research/GATE_0_SEMANTIC_SOVEREIGNTY.md` (Gate 0B note)
+## Production adjacency only
+- `research/SC_BIR_001_BOUNDARY_INTELLIGENCE_RECORD.md` — status / falsification result
+- `data/boundaries/sc-bir-001.json` + `site/data/boundaries/sc-bir-001.json`
+- `site/reference-case-001/` — badges / Gate 0C PASS callout
+- `README.md` + `DECISION_LOG.md` (DEC-012)
 
-## Machine-readable
-- Public: `site/data/boundaries/sc-bir-001.json` → https://streamcollider.com/data/boundaries/sc-bir-001.json
-- Repo mirror: `data/boundaries/sc-bir-001.json` (must stay identical)
+## Verdict
+GATE 0C PASS → Gate 1 authorized (separate branch; not started here)
 
-## Validation
-- `scripts/validate_site.py`
-- `.github/workflows/validate.yml` (pull_request quality gate; no deploy)
-
-## Public surface
-- `site/reference-case-001/` — SC-BIR-001 reference dossier
-- supporting nav/source/method touch-ups as needed
-
-## Still locked
-- No second proving domain
-- No Gate 0 category claim upgrade until Gate 0C
-- No ontology / SEO expansion sprint
+## Not in this PR
+- Gate 1 chiplet case
+- New public routes
+- Ontology / SEO expansion

@@ -2,8 +2,9 @@
 
 **Case ID:** SC-RC-001  
 **Sovereign record:** [SC-BIR-001](./SC_BIR_001_BOUNDARY_INTELLIGENCE_RECORD.md)  
-**Status:** EVIDENCE LEDGER COMPLETE — AWAITING GATE 0C RE-EVALUATION  
+**Status:** GATE 0C PASS — GATE 1 AUTHORIZED  
 **Last verified:** 2026-08-31
+**Falsification:** [`GATE_0C_FALSIFICATION_REEVALUATION.md`](./GATE_0C_FALSIFICATION_REEVALUATION.md)
 
 ## Admission result
 
@@ -35,7 +36,7 @@ Full ledger: [`SC_BIR_001_UNKNOWN_CLOSURE_MATRIX.md`](./SC_BIR_001_UNKNOWN_CLOSU
 
 ## Completion trigger
 
-**Met for classification.** Gate 0 must now be re-evaluated (Gate 0C) before any second proving domain.
+**Met for classification.** Gate 0C complete: **GATE 0C PASS**. Gate 1 authorized on a separate branch.
 
 ## Artifact coupling
 
