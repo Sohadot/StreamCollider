@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-boundary]').forEach((el)=>{el.addEventListener('mouseenter',()=>document.querySelectorAll('.stream').forEach(s=>s.classList.add('active')));el.addEventListener('mouseleave',()=>document.querySelectorAll('.stream').forEach(s=>s.classList.remove('active')));});
