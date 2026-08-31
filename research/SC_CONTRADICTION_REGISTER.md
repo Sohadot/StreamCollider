@@ -119,3 +119,91 @@ Claim classes on consequences use the SOURCE_REGISTER vocabulary (D / S / I / U 
 | SC-CON-007 | Admin-central vs user-scoped credentials | SCOPED |
 
 **Falsification note for Gate 0C:** If these contradictions collapse into ordinary single-document clarifications with no residual cross-domain authority gap, StreamCollider must revise the originality claim before expansion.
+
+---
+
+## SC-BIR-002 scope (director-managed chiplet)
+
+---
+
+## SC-CON-008 — Open multi-vendor ecosystem vs integrator-unified SiP policy
+
+| Field | Content |
+|---|---|
+| **ID** | SC-CON-008 |
+| **Claim A** | UCIe targets open chiplet ecosystem — dies from different vendors, assemblies, process nodes (SC-C001, SC-C002). |
+| **Claim B** | Verification literature: system integrator and chiplet supplier must agree delivery contract; integration defects arise from incompatible assumptions about firmware ownership, timeouts, recovery (SC-C003). |
+| **Scope difference** | Ecosystem openness vs operational unification under one SiP integrator. |
+| **Evidence available** | Direct on both sides. |
+| **Resolution status** | **OPEN — SCOPED.** Multi-vendor ≠ independent governance by default. |
+| **Boundary consequence** | U-01 remains open. Feeds admission CONDITIONAL status. (**I**) |
+
+---
+
+## SC-CON-009 — Director as optional role vs mandatory manageability hub
+
+| Field | Content |
+|---|---|
+| **ID** | SC-CON-009 |
+| **Claim A** | UCIe 3.0 early FW download flow centers **Director Chiplet** obtaining FW and downloading to satellites (SC-C002). |
+| **Claim B** | Deployments may assign director/anchor differently; manageability topology is integrator-configurable; not every SiP uses identical director semantics in production. |
+| **Scope difference** | Normative reference flow vs deployment topology flexibility. |
+| **Evidence available** | Spec brief + verification integrator/supplier contract framing. |
+| **Resolution status** | **SCOPED.** |
+| **Boundary consequence** | Recovery and MTP ownership (U-02, U-05) vary by topology assignment. (**S**) |
+
+---
+
+## SC-CON-010 — Successful FW transfer vs authoritative safe configuration
+
+| Field | Content |
+|---|---|
+| **ID** | SC-CON-010 |
+| **Claim A** | Director downloads first mutable firmware; chiplet boots mutable firmware (SC-C002). |
+| **Claim B** | Verification: successful transfer insufficient if chiplet starts from inconsistent configuration; partial/interrupted transfer scenarios required (SC-C003). |
+| **Scope difference** | Transfer completion vs operational authority/state validity. |
+| **Evidence available** | Direct. |
+| **Resolution status** | **OPEN — EVIDENCE GAP.** |
+| **Boundary consequence** | Feeds U-03, U-07, U-08. (**D** on gap; **U** on production proof) |
+
+---
+
+## SC-CON-011 — SiP-wide emergency throttle vs chiplet-local Tj authority
+
+| Field | Content |
+|---|---|
+| **ID** | SC-CON-011 |
+| **Claim A** | Fast throttle / emergency shutdown broadcast SiP-wide via open-drain; standard cross-vendor approach required (SC-C002, SC-C005). |
+| **Claim B** | Each chiplet has own Tj limits, sensing error bars, and local mitigation responsibilities (SC-C005). |
+| **Scope difference** | Package broadcast authority vs local thermal governance. |
+| **Evidence available** | Direct in UCIe manageability materials. |
+| **Resolution status** | **OPEN.** |
+| **Boundary consequence** | Precedence and proof when local and SiP-wide mitigation diverge (U-06). (**S**) |
+
+---
+
+## SC-CON-012 — Compliance vs multi-vendor interoperability
+
+| Field | Content |
+|---|---|
+| **ID** | SC-CON-012 |
+| **Claim A** | UCIe provides compliance mechanisms and standardized requirements (SC-C001). |
+| **Claim B** | Verification literature: compliance does not guarantee interoperability; failures from firmware policy, capability interpretation, recovery behaviour (SC-C003). |
+| **Scope difference** | Conformance testing vs deployment authority/recovery reality. |
+| **Evidence available** | Direct statement in verification analysis. |
+| **Resolution status** | **SCOPED — widely acknowledged.** |
+| **Boundary consequence** | Version mismatch and recovery Unknowns (U-04, U-05) cannot be closed by compliance alone. (**D**/**S**) |
+
+---
+
+## Register index (BIR-002 additions)
+
+| ID | Title | Status |
+|---|---|---|
+| SC-CON-008 | Multi-vendor ecosystem vs integrator-unified policy | OPEN — SCOPED |
+| SC-CON-009 | Director reference flow vs deployment topology | SCOPED |
+| SC-CON-010 | FW transfer success vs safe configuration | OPEN — EVIDENCE GAP |
+| SC-CON-011 | SiP-wide throttle vs local Tj authority | OPEN |
+| SC-CON-012 | Compliance vs interoperability | SCOPED |
+
+**Falsification note for Gate 1:** If SC-BIR-002 contradictions collapse into spec feature lists with no residual authority gap, Gate 1 must FAIL and scope narrows to HPC–QPU only.

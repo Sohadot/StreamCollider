@@ -258,16 +258,14 @@ The project follows a strict separation between:
 - HTTPS / custom domain: active
 - Sitemap discovery: confirmed
 - Advanced-chip context: established
-- Second proving domain: **Gate 1 authorized**, not started
+- Second proving domain: **SC-BIR-002 ledger complete (repo only)** — Gate 1 falsification pending
 - Category-wide claims: not authorized
 
 ---
 
 ## Next production objective
 
-**Gate 1 screen (this branch):** `research/GATE_1_ADVANCED_CHIP_CANDIDATE_SCREEN.md` — Candidate A authorized to advance.
-
-**After merge — SC-BIR-002 dossier** on a separate branch: Director-managed chiplet boundary only. Extend SC-C locators, Unknown Closure, Contradiction Register, Gate 1 falsification. No new public routes until evidence-bounded.
+**Gate 1 — SC-BIR-002 evidence ledger (repo only, not public).** Gate 1 falsification pending. See `research/SC_BIR_002_BOUNDARY_INTELLIGENCE_RECORD.md`.
 
 ---
 

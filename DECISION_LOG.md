@@ -79,3 +79,11 @@
 - **Hold:** Host↔managed accelerator; electronic↔photonic; package throttle standalone.
 - **Investigate later:** Compute↔managed memory/fabric (locator pack required).
 - **Forbidden in screen PR:** SC-BIR-002 dossier, new public routes, ontology, SEO expansion, category claim.
+
+## DEC-014 — SC-BIR-002 evidence ledger (repo only)
+- **Date:** 2026-08-31
+- **Status:** Binding for current phase
+- **Decision:** SC-BIR-002 evidence ledger complete in repository only: dossier, Unknown Closure (U-01…U-08), contradictions SC-CON-008…012, evidence matrix, `data/boundaries/sc-bir-002.json`.
+- **Admission:** Distinct governance **CONDITIONAL** pending U-01 / Gate 1 falsification.
+- **Forbidden now:** public dossier, `site/` routes, `site/data/boundaries/sc-bir-002.json`, ontology, SEO, category claim.
+- **Next mandatory gate:** Gate 1 falsification against SC-BIR-002.

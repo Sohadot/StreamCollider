@@ -1,6 +1,6 @@
 # Advanced Chips Context Register v0.1
 
-**Status:** Context-only. Gate 1 candidate screen complete — see [`GATE_1_ADVANCED_CHIP_CANDIDATE_SCREEN.md`](./GATE_1_ADVANCED_CHIP_CANDIDATE_SCREEN.md). Candidate A authorized to advance to SC-BIR-002 dossier work. No advanced-chip case is admitted as a Stream Collision yet.
+**Status:** Context-only. Gate 1 candidate screen complete; SC-BIR-002 evidence ledger complete (repo only, not public). See [`SC_BIR_002_BOUNDARY_INTELLIGENCE_RECORD.md`](./SC_BIR_002_BOUNDARY_INTELLIGENCE_RECORD.md). No advanced-chip case is admitted as a Stream Collision yet.
 
 ## Context proposition
 
