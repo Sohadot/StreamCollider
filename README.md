@@ -265,7 +265,7 @@ The project follows a strict separation between:
 
 ## Next production objective
 
-**Gate 1 — SC-BIR-002 evidence ledger (repo only, not public).** Gate 1 falsification pending. See `research/SC_BIR_002_BOUNDARY_INTELLIGENCE_RECORD.md`.
+**Gate 1 falsification** against SC-BIR-002 — then public surface only if PASS. See `research/GATE_0C_FALSIFICATION_REEVALUATION.md` for Gate 0C precedent.
 
 ---
 
