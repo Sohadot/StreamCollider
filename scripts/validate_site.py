@@ -31,6 +31,7 @@ def main() -> int:
         SITE / "sitemap.xml",
         SITE / "robots.txt",
         SITE / "CNAME",
+        SITE / "assets" / "og-image.png",
         SITE / "data" / "boundaries" / "sc-bir-001.json",
         ROOT / "data" / "boundaries" / "sc-bir-001.json",
         ROOT / "research" / "SC_BIR_001_BOUNDARY_INTELLIGENCE_RECORD.md",
@@ -78,6 +79,10 @@ def main() -> int:
             fail(f"missing canonical: {page.relative_to(ROOT)}")
             continue
         href = m.group(1)
+        if 'property="og:image" content="https://streamcollider.com/assets/og-image.png"' not in text:
+            fail(f"missing og:image social card: {page.relative_to(ROOT)}")
+        if 'name="twitter:card" content="summary_large_image"' not in text:
+            fail(f"twitter:card must be summary_large_image: {page.relative_to(ROOT)}")
         if not href.startswith("https://streamcollider.com/"):
             fail(f"canonical must be streamcollider.com: {page.relative_to(ROOT)} -> {href}")
 
