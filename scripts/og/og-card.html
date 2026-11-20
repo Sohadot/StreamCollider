@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>StreamCollider social card</title>
+<!-- Build-time only: this template is rendered to site/assets/og-image.png by
+     scripts/og/render_og.js. The published site never loads these fonts. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&display=block" rel="stylesheet">
+<style>
+:root{--paper:#f3f1ea;--paper2:#ebe8df;--ink:#20242b;--muted:#687078;--rule:#cfd1ce;--structure:#87909a;--stream:#287d7b;--authority:#4f4a91;--unknown:#a56d2a;--white:#faf9f4}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1200px;height:630px;overflow:hidden}
+body{position:relative;color:var(--ink);font-family:"Fraunces",ui-serif,Georgia,serif;
+ background:
+  radial-gradient(circle at 8% 0%,rgba(79,74,145,.13),transparent 420px),
+  radial-gradient(circle at 92% 100%,rgba(40,125,123,.12),transparent 460px),
+  var(--paper)}
+.grid{position:absolute;inset:0;background:
+  linear-gradient(90deg,rgba(135,144,154,.10) 1px,transparent 1px),
+  linear-gradient(rgba(135,144,154,.10) 1px,transparent 1px);background-size:42px 42px;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 55%);mask-image:linear-gradient(90deg,transparent 0%,#000 55%)}
+.frame{position:absolute;inset:28px;border:1px solid rgba(135,144,154,.45)}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;text-transform:uppercase;letter-spacing:.14em}
+.copy{position:absolute;left:76px;top:76px;width:600px;bottom:76px;display:flex;flex-direction:column}
+.kicker{font-size:15px;color:var(--authority);display:flex;align-items:center;gap:14px}
+.kicker::before{content:"";width:34px;height:1px;background:var(--authority)}
+h1{margin-top:34px;font-weight:400;font-size:70px;line-height:1.0;letter-spacing:-.035em;font-variation-settings:"opsz" 144}
+h1 em{font-style:italic;font-weight:300;color:var(--authority)}
+.lede{margin-top:26px;font-family:ui-sans-serif,"Liberation Sans",system-ui,sans-serif;font-size:21px;line-height:1.45;color:#3d444b;max-width:520px}
+.foot{margin-top:auto;display:flex;align-items:center;gap:18px}
+.mark{width:42px;height:42px}
+.brand{font-size:30px;letter-spacing:-.02em;font-variation-settings:"opsz" 72}
+.url{margin-left:auto;font-size:14px;color:var(--muted)}
+.field{position:absolute;right:28px;top:28px;width:470px;height:574px}
+.field svg{width:100%;height:100%}
+.lbl{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;fill:var(--muted)}
+.lbl.a{fill:var(--authority)}
+.node{font-family:"Fraunces",serif;font-size:17px;fill:var(--ink)}
+</style></head>
+<body>
+<div class="grid"></div>
+<div class="frame"></div>
+
+<section class="copy">
+  <div class="kicker mono">Boundary Intelligence</div>
+  <h1>Where computational authority stops being <em>singular.</em></h1>
+  <p class="lede">A governed reference framework for consequential interactions across independently governed compute domains.</p>
+  <div class="foot">
+    <svg class="mark" viewBox="0 0 42 42" aria-hidden="true">
+      <rect x=".5" y=".5" width="41" height="41" fill="none" stroke="#4f4a91" stroke-opacity=".5"/>
+      <line x1="21" y1="5" x2="21" y2="37" stroke="#4f4a91" stroke-width="1.4"/>
+      <path d="M6 12 C14 12 16 20 21 21 C26 22 28 30 36 30" fill="none" stroke="#287d7b" stroke-width="2"/>
+      <path d="M6 30 C14 30 16 22 21 21 C26 20 28 12 36 12" fill="none" stroke="#287d7b" stroke-width="2" stroke-opacity=".55"/>
+      <circle cx="21" cy="21" r="3.6" fill="#f3f1ea" stroke="#a56d2a" stroke-width="1.8"/>
+    </svg>
+    <span class="brand">StreamCollider</span>
+    <span class="url mono">streamcollider.com</span>
+  </div>
+</section>
+
+<div class="field">
+<svg viewBox="0 0 470 574" aria-hidden="true">
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#287d7b" stop-opacity="0"/><stop offset=".25" stop-color="#287d7b" stop-opacity=".9"/><stop offset="1" stop-color="#287d7b" stop-opacity=".9"/></linearGradient>
+  </defs>
+  <!-- governance boundary -->
+  <line x1="262" y1="0" x2="262" y2="574" stroke="#4f4a91" stroke-opacity=".22" stroke-width="22"/>
+  <line x1="262" y1="0" x2="262" y2="574" stroke="#4f4a91" stroke-width="1.4"/>
+  <text class="lbl a" x="274" y="30">GOVERNANCE BOUNDARY</text>
+
+  <!-- streams -->
+  <g fill="none" stroke="url(#fade)" stroke-linecap="round">
+    <path d="M10 120 C150 120 180 255 262 285 C340 315 370 120 450 110" stroke-width="2.2"/>
+    <path d="M10 470 C150 455 180 340 262 300 C340 262 380 470 450 470" stroke-width="2.2"/>
+    <path d="M30 140 C200 180 190 380 262 300 C330 230 360 420 450 465" stroke-width="1.4" stroke-dasharray="2 7"/>
+    <path d="M20 300 C120 300 200 290 262 292 C330 294 380 300 450 296" stroke-width="1.2" stroke-dasharray="1 8" stroke-opacity=".8"/>
+  </g>
+
+  <!-- nodes -->
+  <g>
+    <rect x="44" y="70" width="150" height="54" fill="#faf9f4" fill-opacity=".9" stroke="#cfd1ce"/>
+    <text class="lbl" x="56" y="91">DOMAIN A</text><text class="node" x="56" y="113">HPC / WLM</text>
+    <rect x="276" y="406" width="172" height="54" fill="#faf9f4" fill-opacity=".9" stroke="#cfd1ce"/>
+    <text class="lbl" x="288" y="427">DOMAIN B</text><text class="node" x="288" y="449">Quantum Resource</text>
+  </g>
+
+  <!-- collision point -->
+  <circle cx="262" cy="292" r="34" fill="none" stroke="#4f4a91" stroke-opacity=".35"/>
+  <circle cx="262" cy="292" r="58" fill="none" stroke="#4f4a91" stroke-opacity=".15"/>
+  <circle cx="262" cy="292" r="7" fill="#4f4a91"/>
+
+  <!-- unknown markers -->
+  <g fill="#f3f1ea" stroke="#a56d2a" stroke-width="2">
+    <circle cx="262" cy="186" r="8"/><circle cx="262" cy="392" r="8"/><circle cx="262" cy="492" r="8"/>
+  </g>
+  <text class="lbl" x="276" y="190" style="fill:#a56d2a">UNKNOWN</text>
+
+  <!-- legend -->
+  <text class="lbl" x="44" y="548">KNOWN · UNKNOWN · ASSUMED · EVIDENCE</text>
+</svg>
+</div>
+</body></html>
